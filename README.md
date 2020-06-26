@@ -4,9 +4,9 @@ Trabajo Practico de la materia Arquitectura Web 1C 2020
 #
 #
 Completar:
-Nombre del grupo
-Integrantes
-Descripción del negocio elegido. 
+Nombre del grupo: Gilardon
+Integrantes: Martin Gilardon
+Descripción del negocio elegido: Sistema de carga de pedidos de autos.
 #
 #
 #
