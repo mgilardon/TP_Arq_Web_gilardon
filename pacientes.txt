@@ -1,0 +1,49 @@
+-----------------------------Deatalle del endpoint /pacientes---------------------------------------
+
+	- GET /pacientes
+ 	  {
+        "dni": "100",
+        "nombre": "Jhon",
+        "obrasocial": "OSDE"
+    },
+    {
+        "dni": "101",
+        "nombre": "Max",
+        "obrasocial": "OSDE 210"
+    },
+    {
+        "dni": "102",
+        "nombre": "Peter",
+        "obrasocial": "Galeno"
+    },
+    {
+        "dni": "11122",
+        "nombre": "Jack",
+        "obrasocial": "Galeno"
+    },
+    {
+        "dni": "112244",
+        "nombre": "Rick",
+        "obrasocial": "OSBA"
+    }
+
+	- POST /pacientes
+  	{	"dni": "11122",
+        "nombre": "Jack",
+        "obrasocial": "Galeno"
+  	}
+
+	- GET / pacientes/{dni}
+  	{	"dni": "11122",
+        "nombre": "Jack",
+        "obrasocial": "Galeno"
+    }
+	
+	- PUT /pacientes/{dni}
+  	{	"nombre": "Jack",
+        "obrasocial": "Galeno"
+  	}
+	
+	-DELETE /pacientes/{dni}
+		{
+ 		}

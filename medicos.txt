@@ -1,0 +1,43 @@
+-----------------------------Deatalle del endpoint /medicos---------------------------------------
+
+	- GET /medicos
+	  {
+		"legajo": "10",
+		"nombre": "Martin",
+		"especialidad": "Odontologia"
+	},
+	{
+		"legajo": "11",
+		"nombre": "Gomez",
+		"especialidad": "Kinesiologia"
+	},
+	{
+		"legajo": "12",
+		"nombre": "Sanchez",
+		"especialidad": "Cirujano"
+	}
+
+	- POST /medicos
+	  {
+	   "legajo": "12",
+		"nombre": "Sanchez",
+		"especialidad": "Cirujano"
+	}
+	  
+	- GET /medicos/{legajo}
+	  {
+        "legajo": "10",
+        "nombre": "Martin",
+        "especialidad": "Odontologia"
+    }
+	  
+	- PUT /medicos/{legajo}
+	  {
+		"nombre": "Sanchez",
+		"especialidad": "Cirujano"
+	}
+	
+	-DELETE /medicos/{legajo}
+		{
+	}
+		

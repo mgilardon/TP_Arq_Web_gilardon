@@ -1,0 +1,44 @@
+-----------------------------Deatalle del endpoint /turnos---------------------------------------
+	-GET /turnos 
+		  {
+        "id": "1000",
+        "medico": "Martin",
+        "paciente": "Jhon",
+        "fecha": "15/2/2021 14:25hs"
+    },
+    {
+        "id": "1001",
+        "medico": "Gomez",
+        "paciente": "Max",
+        "fecha": "15/2/2021 15:25hs"
+    },
+    {
+        "id": "1002",
+        "medico": "Sanchez",
+        "paciente": "Peter",
+        "fecha": "15/2/2021 15:35hs"
+    }
+	-POST /turnos 
+		  {
+        "id": "1000",
+        "leg_med": "12",
+		"dni_pac": "102",
+		"fecha": "15/2/2021 15:35hs"
+    }
+	-GET /turnos/{id}
+		  {
+		"leg_med": "12",
+        "dni_pac": "102",
+        "fecha": "15/2/2021 15:35hs"
+    }
+
+	-PUT /turnos/{id}
+		{
+ 		"leg_med": "12",
+		"dni_pac": "102",
+		"fecha": "15/2/2021 15:35hs"
+		}
+	-DELETE /turnos/{id}
+		{
+ 		
+		}
